@@ -1,25 +1,19 @@
 {
-  "name": "boilerplate",
+  "name": "boilerplatesequelize",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch ./src/index.js"
+    "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GerardoPuertosSada/boilerPlate.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GerardoPuertosSada/boilerPlate/issues"
-  },
-  "homepage": "https://github.com/GerardoPuertosSada/boilerPlate#readme",
-  "description": "",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "nodemon": "^2.0.22",
     "pg": "^8.11.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.32.1"
